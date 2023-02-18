@@ -1,0 +1,15 @@
+services:
+- name: forward-proxy-service
+  url: https://my-service.example.com
+  routes:
+  - name: forward-route
+    paths:
+    - /facebook
+    methods:
+    - GET
+    plugins:
+    - name: tmim-forward-proxy
+      config:
+        proxy_url: https://my-proxy.example.com
+        username: my-username
+        password: my-password
