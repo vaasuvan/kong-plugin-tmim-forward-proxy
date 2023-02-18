@@ -1,4 +1,4 @@
-local PLUGIN_NAME = "myplugin"
+local PLUGIN_NAME = "tmim-forward-proxy"
 
 
 -- helper function to validate data against a schema

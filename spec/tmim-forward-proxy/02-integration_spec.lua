@@ -1,7 +1,7 @@
 local helpers = require "spec.helpers"
 
 
-local PLUGIN_NAME = "myplugin"
+local PLUGIN_NAME = "tmim-forward-proxy"
 
 
 for _, strategy in helpers.all_strategies() do if strategy ~= "cassandra" then
